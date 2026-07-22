@@ -1,0 +1,181 @@
+{
+    "quality": {
+        "missing_values": {},
+        "duplicates": {
+            "total_exact_row_duplicates": 1,
+            "key_violations": {}
+        },
+        "data_gaps": []
+    },
+    "statistics": {
+        "numerical_analysis": {
+            "age": {
+                "mean": 54.366,
+                "std_dev": 9.082,
+                "min": 29.0,
+                "25%": 47.5,
+                "50%_median": 55.0,
+                "75%": 61.0,
+                "max": 77.0,
+                "variance": 82.485,
+                "skewness": -0.202,
+                "kurtosis": -0.542,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "trtbps": {
+                "mean": 131.624,
+                "std_dev": 17.538,
+                "min": 94.0,
+                "25%": 120.0,
+                "50%_median": 130.0,
+                "75%": 140.0,
+                "max": 200.0,
+                "variance": 307.586,
+                "skewness": 0.714,
+                "kurtosis": 0.929,
+                "outlier_count": 9,
+                "outlier_%": 2.97,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "chol": {
+                "mean": 246.264,
+                "std_dev": 51.831,
+                "min": 126.0,
+                "25%": 211.0,
+                "50%_median": 240.0,
+                "75%": 274.5,
+                "max": 564.0,
+                "variance": 2686.427,
+                "skewness": 1.143,
+                "kurtosis": 4.505,
+                "outlier_count": 5,
+                "outlier_%": 1.65,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "thalachh": {
+                "mean": 149.647,
+                "std_dev": 22.905,
+                "min": 71.0,
+                "25%": 133.5,
+                "50%_median": 153.0,
+                "75%": 166.0,
+                "max": 202.0,
+                "variance": 524.646,
+                "skewness": -0.537,
+                "kurtosis": -0.062,
+                "outlier_count": 1,
+                "outlier_%": 0.33,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "oldpeak": {
+                "mean": 1.04,
+                "std_dev": 1.161,
+                "min": 0.0,
+                "25%": 0.0,
+                "50%_median": 0.8,
+                "75%": 1.6,
+                "max": 6.2,
+                "variance": 1.348,
+                "skewness": 1.27,
+                "kurtosis": 1.576,
+                "outlier_count": 5,
+                "outlier_%": 1.65,
+                "n_zeros": 99,
+                "n_negative": 0
+            }
+        },
+        "categorical_analysis": {
+            "cp": {
+                "distinct_values": 4,
+                "mode": "0",
+                "mode_frequency": 143,
+                "mode_percentage": 47.19,
+                "top_5_distribution": {
+                    "0": 143,
+                    "2": 87,
+                    "1": 50,
+                    "3": 23
+                }
+            },
+            "restecg": {
+                "distinct_values": 3,
+                "mode": "1",
+                "mode_frequency": 152,
+                "mode_percentage": 50.17,
+                "top_5_distribution": {
+                    "1": 152,
+                    "0": 147,
+                    "2": 4
+                }
+            },
+            "slp": {
+                "distinct_values": 3,
+                "mode": "2",
+                "mode_frequency": 142,
+                "mode_percentage": 46.86,
+                "top_5_distribution": {
+                    "2": 142,
+                    "1": 140,
+                    "0": 21
+                }
+            },
+            "caa": {
+                "distinct_values": 5,
+                "mode": "0",
+                "mode_frequency": 175,
+                "mode_percentage": 57.76,
+                "top_5_distribution": {
+                    "0": 175,
+                    "1": 65,
+                    "2": 38,
+                    "3": 20,
+                    "4": 5
+                }
+            },
+            "thall": {
+                "distinct_values": 4,
+                "mode": "2",
+                "mode_frequency": 166,
+                "mode_percentage": 54.79,
+                "top_5_distribution": {
+                    "2": 166,
+                    "3": 117,
+                    "1": 18,
+                    "0": 2
+                }
+            }
+        },
+        "boolean_analysis": {
+            "sex": {
+                "class_percentages": {
+                    "1": 68.32,
+                    "0": 31.68
+                }
+            },
+            "fbs": {
+                "class_percentages": {
+                    "0": 85.15,
+                    "1": 14.85
+                }
+            },
+            "exng": {
+                "class_percentages": {
+                    "0": 67.33,
+                    "1": 32.67
+                }
+            },
+            "output": {
+                "class_percentages": {
+                    "1": 54.46,
+                    "0": 45.54
+                }
+            }
+        }
+    }
+}

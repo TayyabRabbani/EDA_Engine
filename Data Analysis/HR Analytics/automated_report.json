@@ -1,0 +1,209 @@
+{
+    "quality": {
+        "missing_values": {
+            "gender": {
+                "count": 4508,
+                "percentage": 23.53
+            },
+            "enrolled_university": {
+                "count": 386,
+                "percentage": 2.01
+            },
+            "education_level": {
+                "count": 460,
+                "percentage": 2.4
+            },
+            "major_discipline": {
+                "count": 2813,
+                "percentage": 14.68
+            },
+            "experience": {
+                "count": 65,
+                "percentage": 0.34
+            },
+            "company_size": {
+                "count": 5938,
+                "percentage": 30.99
+            },
+            "company_type": {
+                "count": 6140,
+                "percentage": 32.05
+            },
+            "last_new_job": {
+                "count": 423,
+                "percentage": 2.21
+            }
+        },
+        "duplicates": {
+            "total_exact_row_duplicates": 0,
+            "key_violations": {}
+        },
+        "data_gaps": []
+    },
+    "statistics": {
+        "numerical_analysis": {
+            "city_development_index": {
+                "mean": 0.829,
+                "std_dev": 0.123,
+                "min": 0.4479999999999999,
+                "25%": 0.74,
+                "50%_median": 0.903,
+                "75%": 0.92,
+                "max": 0.949,
+                "variance": 0.015,
+                "skewness": -0.995,
+                "kurtosis": -0.539,
+                "outlier_count": 17,
+                "outlier_%": 0.09,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "training_hours": {
+                "mean": 65.367,
+                "std_dev": 60.058,
+                "min": 1.0,
+                "25%": 23.0,
+                "50%_median": 47.0,
+                "75%": 88.0,
+                "max": 336.0,
+                "variance": 3607.019,
+                "skewness": 1.819,
+                "kurtosis": 3.841,
+                "outlier_count": 984,
+                "outlier_%": 5.14,
+                "n_zeros": 0,
+                "n_negative": 0
+            }
+        },
+        "categorical_analysis": {
+            "city": {
+                "distinct_values": 123,
+                "mode": "city_103",
+                "mode_frequency": 4355,
+                "mode_percentage": 22.73,
+                "top_5_distribution": "High Cardinality (Suppressed Distribution)"
+            },
+            "gender": {
+                "distinct_values": 3,
+                "mode": "Male",
+                "mode_frequency": 13221,
+                "mode_percentage": 90.25,
+                "top_5_distribution": {
+                    "Male": 13221,
+                    "Female": 1238,
+                    "Other": 191
+                }
+            },
+            "relevent_experience": {
+                "distinct_values": 2,
+                "mode": "Has relevent experience",
+                "mode_frequency": 13792,
+                "mode_percentage": 71.99,
+                "top_5_distribution": {
+                    "Has relevent experience": 13792,
+                    "No relevent experience": 5366
+                }
+            },
+            "enrolled_university": {
+                "distinct_values": 3,
+                "mode": "no_enrollment",
+                "mode_frequency": 13817,
+                "mode_percentage": 73.6,
+                "top_5_distribution": {
+                    "no_enrollment": 13817,
+                    "Full time course": 3757,
+                    "Part time course": 1198
+                }
+            },
+            "education_level": {
+                "distinct_values": 5,
+                "mode": "Graduate",
+                "mode_frequency": 11598,
+                "mode_percentage": 62.03,
+                "top_5_distribution": {
+                    "Graduate": 11598,
+                    "Masters": 4361,
+                    "High School": 2017,
+                    "Phd": 414,
+                    "Primary School": 308
+                }
+            },
+            "major_discipline": {
+                "distinct_values": 6,
+                "mode": "STEM",
+                "mode_frequency": 14492,
+                "mode_percentage": 88.66,
+                "top_5_distribution": {
+                    "STEM": 14492,
+                    "Humanities": 669,
+                    "Other": 381,
+                    "Business Degree": 327,
+                    "Arts": 253
+                }
+            },
+            "experience": {
+                "distinct_values": 22,
+                "mode": ">20",
+                "mode_frequency": 3286,
+                "mode_percentage": 17.21,
+                "top_5_distribution": {
+                    ">20": 3286,
+                    "5": 1430,
+                    "4": 1403,
+                    "3": 1354,
+                    "6": 1216
+                }
+            },
+            "company_size": {
+                "distinct_values": 8,
+                "mode": "50-99",
+                "mode_frequency": 3083,
+                "mode_percentage": 23.32,
+                "top_5_distribution": {
+                    "50-99": 3083,
+                    "100-500": 2571,
+                    "10000+": 2019,
+                    "10/49": 1471,
+                    "1000-4999": 1328
+                }
+            },
+            "company_type": {
+                "distinct_values": 6,
+                "mode": "Pvt Ltd",
+                "mode_frequency": 9817,
+                "mode_percentage": 75.41,
+                "top_5_distribution": {
+                    "Pvt Ltd": 9817,
+                    "Funded Startup": 1001,
+                    "Public Sector": 955,
+                    "Early Stage Startup": 603,
+                    "NGO": 521
+                }
+            },
+            "last_new_job": {
+                "distinct_values": 6,
+                "mode": "1",
+                "mode_frequency": 8040,
+                "mode_percentage": 42.91,
+                "top_5_distribution": {
+                    "1": 8040,
+                    ">4": 3290,
+                    "2": 2900,
+                    "never": 2452,
+                    "4": 1029
+                }
+            },
+            "target": {
+                "distinct_values": 2,
+                "mode": 0.0,
+                "mode_frequency": 14381,
+                "mode_percentage": 75.07,
+                "top_5_distribution": {
+                    "0.0": 14381,
+                    "1.0": 4777
+                }
+            }
+        },
+        "boolean_analysis": {}
+    }
+}

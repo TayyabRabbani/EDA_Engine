@@ -1,0 +1,141 @@
+{
+    "quality": {
+        "missing_values": {},
+        "duplicates": {
+            "total_exact_row_duplicates": 1171,
+            "key_violations": {}
+        },
+        "data_gaps": []
+    },
+    "statistics": {
+        "numerical_analysis": {
+            "salary": {
+                "mean": 190695.572,
+                "std_dev": 671676.501,
+                "min": 6000.0,
+                "25%": 100000.0,
+                "50%_median": 138000.0,
+                "75%": 180000.0,
+                "max": 30400000.0,
+                "variance": 451149321334.548,
+                "skewness": 28.938,
+                "kurtosis": 1147.567,
+                "outlier_count": 113,
+                "outlier_%": 3.01,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "salary_in_usd": {
+                "mean": 137570.39,
+                "std_dev": 63055.625,
+                "min": 5132.0,
+                "25%": 95000.0,
+                "50%_median": 135000.0,
+                "75%": 175000.0,
+                "max": 450000.0,
+                "variance": 3976011879.228,
+                "skewness": 0.536,
+                "kurtosis": 0.834,
+                "outlier_count": 63,
+                "outlier_%": 1.68,
+                "n_zeros": 0,
+                "n_negative": 0
+            }
+        },
+        "categorical_analysis": {
+            "work_year": {
+                "distinct_values": 4,
+                "mode": "2023",
+                "mode_frequency": 1785,
+                "mode_percentage": 47.54,
+                "top_5_distribution": {
+                    "2023": 1785,
+                    "2022": 1664,
+                    "2021": 230,
+                    "2020": 76
+                }
+            },
+            "experience_level": {
+                "distinct_values": 4,
+                "mode": "SE",
+                "mode_frequency": 2516,
+                "mode_percentage": 67.0,
+                "top_5_distribution": {
+                    "SE": 2516,
+                    "MI": 805,
+                    "EN": 320,
+                    "EX": 114
+                }
+            },
+            "employment_type": {
+                "distinct_values": 4,
+                "mode": "FT",
+                "mode_frequency": 3718,
+                "mode_percentage": 99.01,
+                "top_5_distribution": {
+                    "FT": 3718,
+                    "PT": 17,
+                    "CT": 10,
+                    "FL": 10
+                }
+            },
+            "job_title": {
+                "distinct_values": 93,
+                "mode": "Data Engineer",
+                "mode_frequency": 1040,
+                "mode_percentage": 27.7,
+                "top_5_distribution": "High Cardinality (Suppressed Distribution)"
+            },
+            "salary_currency": {
+                "distinct_values": 20,
+                "mode": "USD",
+                "mode_frequency": 3224,
+                "mode_percentage": 85.86,
+                "top_5_distribution": {
+                    "USD": 3224,
+                    "EUR": 236,
+                    "GBP": 161,
+                    "INR": 60,
+                    "CAD": 25
+                }
+            },
+            "employee_residence": {
+                "distinct_values": 78,
+                "mode": "US",
+                "mode_frequency": 3004,
+                "mode_percentage": 80.0,
+                "top_5_distribution": "High Cardinality (Suppressed Distribution)"
+            },
+            "remote_ratio": {
+                "distinct_values": 3,
+                "mode": "0",
+                "mode_frequency": 1923,
+                "mode_percentage": 51.21,
+                "top_5_distribution": {
+                    "0": 1923,
+                    "100": 1643,
+                    "50": 189
+                }
+            },
+            "company_location": {
+                "distinct_values": 72,
+                "mode": "US",
+                "mode_frequency": 3040,
+                "mode_percentage": 80.96,
+                "top_5_distribution": "High Cardinality (Suppressed Distribution)"
+            },
+            "company_size": {
+                "distinct_values": 3,
+                "mode": "M",
+                "mode_frequency": 3153,
+                "mode_percentage": 83.97,
+                "top_5_distribution": {
+                    "M": 3153,
+                    "L": 454,
+                    "S": 148
+                }
+            }
+        },
+        "boolean_analysis": {}
+    }
+}

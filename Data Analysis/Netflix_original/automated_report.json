@@ -1,0 +1,69 @@
+{
+    "quality": {
+        "missing_values": {},
+        "duplicates": {
+            "total_exact_row_duplicates": 0,
+            "key_violations": {}
+        },
+        "data_gaps": []
+    },
+    "statistics": {
+        "numerical_analysis": {
+            "Runtime": {
+                "mean": 93.577,
+                "std_dev": 27.762,
+                "min": 4.0,
+                "25%": 86.0,
+                "50%_median": 97.0,
+                "75%": 108.0,
+                "max": 209.0,
+                "variance": 770.711,
+                "skewness": -0.885,
+                "kurtosis": 1.771,
+                "outlier_count": 75,
+                "outlier_%": 12.84,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "IMDB Score": {
+                "mean": 6.272,
+                "std_dev": 0.979,
+                "min": 2.5,
+                "25%": 5.7,
+                "50%_median": 6.35,
+                "75%": 7.0,
+                "max": 9.0,
+                "variance": 0.959,
+                "skewness": -0.491,
+                "kurtosis": 0.672,
+                "outlier_count": 9,
+                "outlier_%": 1.54,
+                "n_zeros": 0,
+                "n_negative": 0
+            }
+        },
+        "categorical_analysis": {
+            "Genre": {
+                "distinct_values": 115,
+                "mode": "Documentary",
+                "mode_frequency": 159,
+                "mode_percentage": 27.23,
+                "top_5_distribution": "High Cardinality (Suppressed Distribution)"
+            },
+            "Language": {
+                "distinct_values": 38,
+                "mode": "English",
+                "mode_frequency": 401,
+                "mode_percentage": 68.66,
+                "top_5_distribution": {
+                    "English": 401,
+                    "Hindi": 33,
+                    "Spanish": 31,
+                    "French": 20,
+                    "Italian": 14
+                }
+            }
+        },
+        "boolean_analysis": {}
+    }
+}
