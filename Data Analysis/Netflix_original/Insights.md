@@ -172,7 +172,7 @@ Most runtime outliers correspond to very short productions or unusually long fea
 
 ## Runtime Distribution
 
-![Runtime Distribution](plots/numerical_Runtime.png)
+![Runtime Distribution](plots/numerical_Run_Time.png)
 
 ---
 

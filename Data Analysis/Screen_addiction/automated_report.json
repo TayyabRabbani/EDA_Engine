@@ -1,0 +1,279 @@
+{
+    "schema": {
+        "primary_types": {
+            "numerical": [
+                "age",
+                "daily_screen_time_hours",
+                "social_media_hours",
+                "gaming_hours",
+                "work_study_hours",
+                "sleep_hours",
+                "notifications_per_day",
+                "app_opens_per_day",
+                "weekend_screen_time"
+            ],
+            "categorical": [
+                "gender",
+                "stress_level"
+            ],
+            "text": [],
+            "datetime": [],
+            "boolean": [
+                "academic_work_impact",
+                "addicted_label"
+            ]
+        },
+        "properties": {
+            "high_cardinality": [],
+            "constant": [],
+            "id_or_key": [
+                "id"
+            ],
+            "numeric_like": []
+        }
+    },
+    "quality": {
+        "missing_values": {
+            "age": {
+                "count": 28929,
+                "percentage": 4.18
+            },
+            "daily_screen_time_hours": {
+                "count": 95854,
+                "percentage": 13.86
+            },
+            "social_media_hours": {
+                "count": 133995,
+                "percentage": 19.38
+            },
+            "gaming_hours": {
+                "count": 126821,
+                "percentage": 18.34
+            },
+            "work_study_hours": {
+                "count": 51518,
+                "percentage": 7.45
+            },
+            "sleep_hours": {
+                "count": 44480,
+                "percentage": 6.43
+            },
+            "notifications_per_day": {
+                "count": 67584,
+                "percentage": 9.78
+            },
+            "app_opens_per_day": {
+                "count": 80710,
+                "percentage": 11.67
+            },
+            "weekend_screen_time": {
+                "count": 112063,
+                "percentage": 16.21
+            },
+            "gender": {
+                "count": 29034,
+                "percentage": 4.2
+            },
+            "stress_level": {
+                "count": 55148,
+                "percentage": 7.98
+            },
+            "academic_work_impact": {
+                "count": 44224,
+                "percentage": 6.4
+            }
+        },
+        "duplicates": {
+            "total_exact_row_duplicates": 0,
+            "key_violations": {}
+        },
+        "data_gaps": []
+    },
+    "statistics": {
+        "numerical_analysis": {
+            "age": {
+                "mean": 26.615,
+                "std_dev": 5.153,
+                "min": 18.0,
+                "25%": 22.0,
+                "50%_median": 27.0,
+                "75%": 31.0,
+                "max": 35.0,
+                "variance": 26.555,
+                "skewness": -0.037,
+                "kurtosis": -1.217,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "daily_screen_time_hours": {
+                "mean": 7.641,
+                "std_dev": 2.721,
+                "min": 0.5,
+                "25%": 5.48,
+                "50%_median": 7.77,
+                "75%": 9.84,
+                "max": 15.0,
+                "variance": 7.406,
+                "skewness": -0.132,
+                "kurtosis": -0.921,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "social_media_hours": {
+                "mean": 2.471,
+                "std_dev": 1.316,
+                "min": 0.0,
+                "25%": 1.45,
+                "50%_median": 2.31,
+                "75%": 3.37,
+                "max": 8.0,
+                "variance": 1.732,
+                "skewness": 0.468,
+                "kurtosis": -0.38,
+                "outlier_count": 1209,
+                "outlier_%": 0.22,
+                "n_zeros": 12,
+                "n_negative": 0
+            },
+            "gaming_hours": {
+                "mean": 1.459,
+                "std_dev": 0.935,
+                "min": 0.0,
+                "25%": 0.7,
+                "50%_median": 1.33,
+                "75%": 2.09,
+                "max": 4.0,
+                "variance": 0.873,
+                "skewness": 0.545,
+                "kurtosis": -0.457,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 110,
+                "n_negative": 0
+            },
+            "work_study_hours": {
+                "mean": 2.367,
+                "std_dev": 1.259,
+                "min": 0.0,
+                "25%": 1.36,
+                "50%_median": 2.2,
+                "75%": 3.2,
+                "max": 6.0,
+                "variance": 1.585,
+                "skewness": 0.563,
+                "kurtosis": -0.323,
+                "outlier_count": 300,
+                "outlier_%": 0.05,
+                "n_zeros": 5,
+                "n_negative": 0
+            },
+            "sleep_hours": {
+                "mean": 6.804,
+                "std_dev": 1.235,
+                "min": 4.5,
+                "25%": 5.78,
+                "50%_median": 6.8,
+                "75%": 7.87,
+                "max": 9.0,
+                "variance": 1.524,
+                "skewness": -0.007,
+                "kurtosis": -1.128,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "notifications_per_day": {
+                "mean": 145.895,
+                "std_dev": 65.918,
+                "min": 20.0,
+                "25%": 93.0,
+                "50%_median": 150.0,
+                "75%": 204.0,
+                "max": 250.0,
+                "variance": 4345.124,
+                "skewness": -0.207,
+                "kurtosis": -1.13,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "app_opens_per_day": {
+                "mean": 102.637,
+                "std_dev": 48.094,
+                "min": 15.0,
+                "25%": 64.0,
+                "50%_median": 104.0,
+                "75%": 145.0,
+                "max": 180.0,
+                "variance": 2313.03,
+                "skewness": -0.126,
+                "kurtosis": -1.167,
+                "outlier_count": 0,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            },
+            "weekend_screen_time": {
+                "mean": 9.48,
+                "std_dev": 2.856,
+                "min": 0.51,
+                "25%": 7.28,
+                "50%_median": 9.58,
+                "75%": 11.75,
+                "max": 17.56,
+                "variance": 8.157,
+                "skewness": -0.063,
+                "kurtosis": -0.757,
+                "outlier_count": 6,
+                "outlier_%": 0.0,
+                "n_zeros": 0,
+                "n_negative": 0
+            }
+        },
+        "categorical_analysis": {
+            "gender": {
+                "distinct_values": 3,
+                "mode": "Male",
+                "mode_frequency": 223662,
+                "mode_percentage": 33.77,
+                "top_5_distribution": {
+                    "Male": 223662,
+                    "Female": 221595,
+                    "Other": 217078
+                }
+            },
+            "stress_level": {
+                "distinct_values": 3,
+                "mode": "High",
+                "mode_frequency": 220873,
+                "mode_percentage": 34.72,
+                "top_5_distribution": {
+                    "High": 220873,
+                    "Low": 207783,
+                    "Medium": 207565
+                }
+            }
+        },
+        "boolean_analysis": {
+            "academic_work_impact": {
+                "class_percentages": {
+                    "Yes": 51.08,
+                    "No": 48.92
+                }
+            },
+            "addicted_label": {
+                "class_percentages": {
+                    "1": 70.94,
+                    "0": 29.06
+                }
+            }
+        }
+    },
+    "plots_dir": "D:\\ML\\Project\\EDAEngine\\Data Analysis\\Screen_addiction\\plots"
+}
